@@ -1,0 +1,82 @@
+*{font-family:  'Half Bold Pixel-7';}
+@font-face {
+    font-family: 'Half Bold Pixel-7';
+    src: url('HalfBoldPixel-7.woff2') format('woff2'),
+        url('HalfBoldPixel-7.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    background-image: url(img/elitefon.ru-17052.jpg);
+}
+img{
+    width: 100%;
+    height: 20%;
+}
+a{
+    color: white;
+}
+#content{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: black;
+    width: 760px;
+    padding: 25px;
+    overflow: hidden;
+    overflow-x: hidden;
+    max-height: 700px;
+}
+
+#block{
+    width: 810px;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 715px;
+    left: 395px;
+    text-align: center;
+}
+#left,#right{
+    position: absolute;
+    width: 60px;
+    height: 405px;
+    background-color: black;
+
+}
+#left{
+        top: 310px;
+        left: 420px;
+}
+#right{
+        top: 310px;
+        right:420px;
+}
+@media only screen and (min-height: 900px){
+        #block{
+            top: 715px;
+    left: 395px;
+    }
+#left{
+        top: 310px;
+        left: 420px;
+}
+#right{
+        top: 310px;
+        right:420px;
+}
+}
+@media only screen and (min-height: 1080px){
+    
+    #block{
+        top:64vh;
+        left: 51.4vh;
+    }
+    #left{
+        top: 27vh;
+        left: 53.71vh;
+}
+    #right{
+        top: 27vh;
+        right:53.71vh;
+}
+}

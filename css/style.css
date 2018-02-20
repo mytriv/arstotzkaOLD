@@ -1,0 +1,148 @@
+*{letter-spacing: 3px; font-family: 'Half Bold Pixel-7';}
+body{
+    background-image: url(image/fornt.jpg);
+    width: auto;
+    height: 1500px;  
+}
+
+ #wrapper {
+     margin: auto;
+     width: 900px;
+     height: 1450px;
+     border:1px solid  #d59250; 
+     background-color: #02040094;
+}
+#header{
+    background: url(image/ahf2.jpg);
+    width: 900px;
+    height: 399px; 
+}
+#navigation {
+	display: flex;
+    width: 900px;
+    height: 55px;
+    border: 0.5px solid #d59250;
+    text-align: center;
+}
+.ghost-button {
+    width: 300px;
+    height: 55px;
+    display: inline-block;
+    color: #DA8836;
+    border: 1px solid #DA8836;
+    background-color: #0e0e0da3;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0 0 7px;
+    font-size: 30px;
+}
+.ghost-button:hover, .ghost-button:active {
+ box-shadow:0 0 30px;
+ color: #DA8836;
+   transition: 0.4s;
+}
+#Image {
+    background: url(image/Congratulations-slider.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 299px;
+    height: 858px;
+    border: 1px solid #da8836;
+    }
+#table-news{
+	margin-top: 225px;
+	color: aliceblue;
+	text-align: center;
+	border: 0.5px solid #da8836;
+	text-shadow: 0px 3px 3px rgb(224, 99, 196);
+	font-size: 26px;
+	background-color: #0000008a;
+}
+#block-news{
+
+	font-size: 20px;
+	color: white;
+
+	border: 1px solid #d59250;
+}
+.text{
+
+	font-size: 18px;
+}
+.gif{
+	
+}
+.style{
+	    margin-top: 20px;
+}
+.l{
+    width: 300px;
+    height: 650px;
+    border: 0.5px solid #d59250;
+    float: left;
+    margin-top: 225px;
+}
+ #content {
+    width: 596px;
+    height: 858px;
+    float: right;
+    border: 1px solid #0000008a;
+    background-color: #0000008a;
+}
+.image{
+	float:right;
+	width:297px;
+	height:250px;
+	border:1px solid #d59250;
+	background: url(image/news.png);
+	margin-left: 10px;
+    margin-bottom: 10px;
+}
+p{ 
+    color: white;
+    
+    font-size: 18px;   
+	margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+img{
+    width: 298px;
+    height: 300px;
+}
+h1{
+	color: white;
+    padding-left: 50px;
+}
+.center{
+	text-align: center;
+}
+#footer{
+    margin-left: 350px;
+	font-size: 40px;
+	color: white;
+}
+
+
+
+@font-face {
+    font-family: 'Half Bold Pixel-7';
+    src: url('HalfBoldPixel-7.woff2') format('woff2'),
+        url('HalfBoldPixel-7.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#newa{
+    text-align: center;
+    margin-top: 80px;
+}
+a{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: orange;
+}

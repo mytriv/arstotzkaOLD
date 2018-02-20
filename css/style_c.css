@@ -1,0 +1,87 @@
+*{font-family: 'Half Bold Pixel-7';}
+
+
+@font-face {
+    font-family: 'Half Bold Pixel-7';
+    src: url('HalfBoldPixel-7.woff2') format('woff2'),
+         url('HalfBoldPixel-7.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#content{
+    
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: black;
+    width: 760px;
+    padding: 25px;
+}
+h1{
+    text-align: center;
+}
+#header{
+    width: 100%;
+    height: 215px;
+    margin: 0;
+}
+body{
+    background-image: url(img/elitefon.ru-17052.jpg);
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+#back{
+
+    text-align: center;
+}
+a{
+    color: white;
+}
+
+}
+#contact1{
+    float: left;
+    margin-left: 10px;
+}
+#img1{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+}
+#img2{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+#contact2 {
+    margin-left: 10px;
+    float: right;
+}
+#names{
+    margin-left: 10px;
+}
+h1, h2 , h3 , p {
+    color: white;
+    letter-spacing: 2px;
+}
+#text{
+    margin-right: 0;
+    color: white;
+    text-align: center;
+}
+h4{
+    margin-top: 0;
+    color: white;
+    letter-spacing: 7px;
+}
+
+#grid{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ 
+
