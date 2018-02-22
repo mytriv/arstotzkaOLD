@@ -65,6 +65,7 @@ a{
         right:420px;
 }
 }
+/* 960px fix */
 @media only screen and (min-height: 1070px){
     
     #block{
