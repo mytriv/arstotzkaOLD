@@ -6,6 +6,16 @@
     font-weight: bold;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'Kremlin';
+    src: url('Kremlin.woff2') format('woff2'),
+        url('Kremlin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-image: url(img/elitefon.ru-17052.jpg);
 }
@@ -16,6 +26,7 @@ img{
 a{
     color: white;
 }
+
 #content{
     overflow: hidden;
     margin: 0 auto;
@@ -26,58 +37,41 @@ a{
     overflow-x: hidden;
     max-height: 700px;
 }
-
+#blocks{
+    position: relative;
+    max-height: 750px;
+}
 #block{
     width: 810px;
     height: 70px;
     background-color: black;
-    position: fixed;
-    top: 715px;
-    left: 395px;
     text-align: center;
-}
-#left,#right{
     position: absolute;
-    width: 60px;
-    height: 405px;
-    background-color: black;
+    top:84.55vh;
 
 }
-#left{
-        top: 310px;
-        left: 420px;
+#left,#right{
+    width: 60px;
+    height: 480px;
+    background-color: black;
+    position: absolute;
 }
 #right{
-        top: 310px;
-        right:420px;
+    top:25.55vh;
+    right:0vh;
 }
-@media only screen and (min-height: 890px){
-        #block{
-            top: 715px;
-    left: 395px;
-    }
 #left{
-        top: 310px;
-        left: 420px;
+    top: 25.55vh;
+    left: 0vh;
 }
-#right{
-        top: 310px;
-        right:420px;
-}
-}
-/* 960px fix */
-@media only screen and (min-height: 1070px){
-    
+@media screen and (min-height: 910px){
     #block{
-        top:64vh;
-        left: 51.4vh;
-    }
-    #left{
-        top: 27vh;
-        left: 53.71vh;
-}
-    #right{
-        top: 27vh;
-        right:53.71vh;
+    width: 810px;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top:73vh;
+
 }
 }
