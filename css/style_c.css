@@ -1,6 +1,12 @@
 *{font-family: 'Half Bold Pixel-7';}
 
-
+@font-face {
+    font-family: 'Kremlin';
+    src: url('Kremlin.woff2') format('woff2'),
+        url('Kremlin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Half Bold Pixel-7';
     src: url('HalfBoldPixel-7.woff2') format('woff2'),
@@ -18,6 +24,7 @@
     padding: 25px;
 }
 h1{
+    font-family: 'Kremlin';
     text-align: center;
 }
 #header{
@@ -67,11 +74,13 @@ h1, h2 , h3 , p {
     letter-spacing: 2px;
 }
 #text{
+    font-family: 'Kremlin';
     margin-right: 0;
     color: white;
     text-align: center;
 }
 h4{
+    font-family: 'Kremlin';
     margin-top: 0;
     color: white;
     letter-spacing: 7px;
