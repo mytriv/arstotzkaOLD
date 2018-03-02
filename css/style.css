@@ -2,26 +2,28 @@
 
 @font-face {
     font-family: 'Half Bold Pixel-7';
-    src: url('HalfBoldPixel-7.woff2') format('woff2'),
-        url('HalfBoldPixel-7.woff') format('woff');
+    src: url('../fonts/HalfBoldPixel-7.woff2') format('woff2'),
+         url('../fonts/HalfBoldPixel-7.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Kremlin';
-    src: url('Kremlin.woff2') format('woff2'),
-        url('Kremlin.woff') format('woff');
+    src: url('../fonts/Kremlin.woff2') format('woff2'),
+         url('../fonts/Kremlin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+
 body{
-    background-image: url(image/fornt.jpg);
+    margin: 0;
+    background-image: url(../img/background.jpg);
     width: auto;
     height: 1500px;  
 }
 
- #wrapper {
+#wrapper {
      margin: auto;
      width: 900px;
      height: 1450px;
@@ -30,42 +32,55 @@ body{
 }
 
 #header{
-    background: url(image/ahf2.jpg);
+    background: url(../img/header_i.jpg);
     width: 900px;
     height: 399px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-#navigation {
-	display: flex;
-    width: 900px;
+.nav {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
     height: 55px;
     border: 0.5px solid #d59250;
     text-align: center;
+   	position: -webkit-sticky;
+}
+
+.sticky {
+    position: fixed;
+    width: inherit;
+    height: 55px;
+    top:0;
 }
 
 .ghost-button {
-    width: 300px;
+    width: 100%;
     height: 55px;
     display: inline-block;
-    color: #DA8836;
-    border: 1px solid #DA8836;
+    color: aliceblue;
+    border: 1px solid #8b0000;
     background-color: #0e0e0da3;
     border-radius: 3px;
     text-align: center;
     outline: none;
     text-decoration: none;
-    box-shadow: 0 0 7px;
+    text-shadow: 0 0 5px #8b0000;
+    box-shadow: 0 0 7px #3C4A39;
     font-size: 30px;
 }
 
 .ghost-button:hover, .ghost-button:active {
- box-shadow:0 0 30px;
- color: #DA8836;
+ box-shadow:0 0 30px ;
+ color: #8b0000;
    transition: 0.4s;
 }
 
 #Image {
-    background: url(image/Congratulations-slider.png);
+    background: url(../img/news_icon.png);
     background-repeat: no-repeat;
     float: left;
     width: 299px;
@@ -124,7 +139,7 @@ body{
 	width:297px;
 	height:250px;
 	border:1px solid #d59250;
-	background: url(image/news.png);
+	background: url(../img/news.png);
 	margin-left: 10px;
     margin-bottom: 10px;
 }
