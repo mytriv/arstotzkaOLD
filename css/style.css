@@ -51,6 +51,7 @@ body{
 }
 
 .sticky {
+	background-color:black;
     position: fixed;
     width: inherit;
     height: 55px;
