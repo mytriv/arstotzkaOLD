@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+.content_block{
+    width: 300px;
+    height: 300px;
+}
