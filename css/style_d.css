@@ -18,7 +18,7 @@ a{
     padding: 25px;
     overflow: hidden;
     overflow-x: hidden;
-    max-height: 700px;
+    max-height: 702px;
 }
 #blocks{
     position: relative;
@@ -30,7 +30,7 @@ a{
     background-color: black;
     text-align: center;
     position: absolute;
-    top:84.55vh;
+    top:85.55vh;
 
 }
 #left,#right{
