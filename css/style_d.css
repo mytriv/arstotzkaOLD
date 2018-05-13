@@ -1,4 +1,4 @@
-
+*{margin: 0 auto;}
 body{
     background-image: url(../img/background.jpg);
 }
@@ -18,11 +18,12 @@ a{
     padding: 25px;
     overflow: hidden;
     overflow-x: hidden;
-    max-height: 702px;
+    max-height: auto;
 }
 #blocks{
     position: relative;
     max-height: 750px;
+    
 }
 #block{
     width: 810px;
@@ -30,31 +31,21 @@ a{
     background-color: black;
     text-align: center;
     position: absolute;
-    top:84.55vh;
+    top:95%;
 
 }
 #left,#right{
-    width: 60px;
-    height: 480px;
+    width: 64px;
+    height: 900px;
     background-color: black;
     position: absolute;
 }
 #right{
     top:25.55vh;
-    right:0vh;
+    right:-3px;
 }
 #left{
     top: 25.55vh;
-    left: 0vh;
+    left: -3px;
 }
-@media screen and (min-height: 910px){
-    #block{
-    width: 810px;
-    height: 70px;
-    background-color: black;
-    text-align: center;
-    position: absolute;
-    top:71vh;
 
-}
-}
