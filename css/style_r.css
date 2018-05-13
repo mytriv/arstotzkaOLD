@@ -1,7 +1,35 @@
+
 body{
     background-image: url(../img/background.jpg);
 }
-.content_block{
-    width: 300px;
-    height: 300px;
+
+#indev{
+    margin-left: 30%;
+}
+#passport{
+    position: relative;
+    margin-left: 27%;
+    color: black;
+}
+#idout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 120px;
+    height: 13px;
+}
+span{
+    font-size: 16px;
+    left: 50px;
+}
+p{
+    text-align: center;
+    position: relative;
+    bottom: 13px;
+    font-weight: bolder;
+}
+#inpas{
+    
+    position: absolute;
+    bottom: 5vh;
+    left: 15vh;
 }
