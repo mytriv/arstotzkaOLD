@@ -8,23 +8,26 @@
 
 </head>
 <body>
-      <div id="indev"><img src="img/indev.gif" alt=""></div>
-
+     <!--<div id="indev"><img src="img/indev.gif" alt=""></div>-->
+     <div id="intro">
+     <h1>Welcome</h1><br><p>Тут ви можете створити свій паспорт. Варто лише ввести свої дані і нажати кнопку Generate. </p> </div>
+     <div id="wrapper">
+     <div id="input-form" style="display:block">
+     <h5>Name</h5><input type="text" id="name-inp"><br><h5>Date</h5><input type="text" id="dob-inp"><br><h5>Sex</h5><input type="text" id="sex-inp"><br><h5>Iss</h5><input type="text" id="iss-inp"><br><button id="generate" onclick="generate() , show()">Generate</button>
+</div>
     
-    <div id="passport">    
-    <button id="download">CLICK</button>
+    <div id="passport" style="display:none"> 
     <img id="image" src="img/pasport_clear.png" alt="">
     <div id="inpas">
     <span>
     <div id="idout">
     <div id="idout1">  </div><div><p>-</p></div><div id="idout2"></div></div>
-    </span></div>
-    </div>
-    
+    </span>
+        </div>
+        <div id="name"></div><div id="dob"></div><div id="sex"></div><div id="iss"></div><div id="exp"></div><div id="photo"></div>
+         </div>
+         </div>
+    <div id="bottom"> <a  class="ghost-button" href="index.html">Назад</a> </div>
     <script src="js/script_reg.js" ></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/canvas-to-blob.js"></script>
-    <script src="js/FileSaver.js"></script>
-    <script src="js/html2canvas.js"></script>
 </body>
 </html>
