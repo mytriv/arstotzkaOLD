@@ -2,14 +2,13 @@
 body{
     background-image: url(../img/background.jpg);
 }
-
 #indev{
     margin-left: 30%;
 }
 #passport{
     position: relative;
-    margin-left: 27%;
-    color: black;
+    color: #a29491;
+    margin-left: -20px;
 }
 #idout{
     display: grid;
@@ -21,15 +20,96 @@ span{
     font-size: 16px;
     left: 50px;
 }
+h1{
+    border-bottom: 2px solid darkred;
+}
+.ghost-button {
+    width: 900px;
+    height: 55px;
+    display: inline-block;
+    color: aliceblue;
+    border: 1px solid #8b0000;
+    background-color: black;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    text-shadow: 0 0 5px #8b0000;
+    box-shadow: 0 0 7px #3C4A39;
+    font-size: 30px;
+    margin-left: 27%;
+    margin-top: 25px;
+}
+#generate{
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ghost-button:hover, .ghost-button:active {
+ box-shadow:0 0 30px ;
+ color: #8b0000;
+   transition: 0.4s;
+}
 p{
     text-align: center;
     position: relative;
-    bottom: 13px;
+    bottom: 15px;
     font-weight: bolder;
 }
+h5{
+    padding-left: 5px;
+    height: 1px;
+    color: aliceblue;
+}
+#input-form{
+    background-color: black;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+}
+#inpas, #name, #dob, #sex, #iss, #exp, #photo {
+    position: relative;
+    font-size: 20px;
+}
 #inpas{
-    
-    position: absolute;
-    bottom: 5vh;
-    left: 15vh;
+    bottom: 55px;
+    left: 40px;
+}
+#name{
+    bottom: 330px;
+    left: 45px;
+}
+#dob{
+    bottom: 315px;
+    left: 300px;
+}
+#sex{
+    bottom: 300px;
+    left: 300px;
+}
+#iss{
+    bottom: 290px;
+    left: 300px;
+}
+#exp{
+    bottom: 280px;
+    left: 300px;
+}
+#photo{
+    bottom: 385px;
+    left: 35px;
+}
+#wrapper{
+    margin-left: 36%;
+}
+input{
+    width:495px;
+}
+#intro{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
 }
