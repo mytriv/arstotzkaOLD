@@ -24,8 +24,8 @@ document.getElementById('idout2').innerHTML = makeid(5);
 
 show.visible = 'input-form';
 show.hidden = 'passport';
-function show(){
 
+function show(){
     show.hidden = show.visible;
     show.visible = (show.visible === 'input-form')?'passport':'input-form';
     document.getElementById(show.visible).style.display = 'block';
